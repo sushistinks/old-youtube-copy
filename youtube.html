@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img src="icons/search.svg" class="search-icon">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img src="icons/voice-search-icon.svg" class="voice-search-icon">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img src="icons/upload.svg" class="upload-icon">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+        <img src="icons/youtube-apps.svg" class="youtube-apps-icon">
+        <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <div class="notifications-count">3</div>
+          <img src="icons/notifications.svg" class="notifications-icon">
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img src="channels/my-channel.jpg" class="current-user-picture">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div style="
+    position: absolute;
+    background-color: red;
+    color: white;">
+      absolute
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+          </a>
+          <div class="video-time">
+            14:20
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-link">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </a>
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            17:37
+          </div>
+          <a href="https://www.youtube.com/watch?v=TXXWzd2vdjc&t=2s">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-2.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=TXXWzd2vdjc&t=2s" class="video-link">
+                The most UNDERRATED Shonen
+              </a>
+            </p>
+            <p class="video-author">
+              Jensonnn
+            </p>
+            <p class="video-stats">
+              1K views &#183; 12 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            10:23
+          </div>
+          <a href="https://www.youtube.com/watch?v=NOPM_qEcyng">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=NOPM_qEcyng" class="video-link">
+                This is what RUST is like for a NEW PLAYER
+              </a>
+            </p>
+            <p class="video-author">
+              Mogaloo
+            </p>
+            <p class="video-stats">
+              24K views &#183; 10 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            5:16
+          </div>
+          <a href="https://www.youtube.com/watch?v=Z-SR3LNJQMQ&t=5s">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=Z-SR3LNJQMQ&t=5s" class="video-link">
+                BapuReviews: Jenson Private Plays CS:GO 3
+              </a>
+            </p>
+            <p class="video-author">
+              Bapu 845
+            </p>
+            <p class="video-stats">
+              55 views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            45:59
+          </div>
+          <a href="https://www.youtube.com/watch?v=yMLYNzNd3fk">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=yMLYNzNd3fk" class="video-link">
+                Dad Reacts to Charli XCX - Brat
+              </a>
+            </p>
+            <p class="video-author">
+              turning the tables
+            </p>
+            <p class="video-stats">
+              341K views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            14:27
+          </div>
+          <a href="https://www.youtube.com/watch?v=jTJvyKZDFsY&t=1s">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=jTJvyKZDFsY&t=1s" class="video-link">
+                20 Programming Projects That Will Make You A God At Coding
+              </a>
+            </p>
+            <p class="video-author">
+              The Coding Sloth
+            </p>
+            <p class="video-stats">
+              732K views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            26:46
+          </div>
+          <a href="https://www.youtube.com/watch?v=pve7JVtlGNM">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-7.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=pve7JVtlGNM" class="video-link">
+                JPEGMAFIA x Danny Brown - SCARING THE HOES DOCUMENTARY
+              </a>
+            </p>
+            <p class="video-author">
+              JPEGMAFIA
+            </p>
+            <p class="video-stats">
+              519K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            6:54
+          </div>
+          <a href="https://www.youtube.com/watch?v=HhsSQJtkAC4">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-8.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=HhsSQJtkAC4" class="video-link">
+                Reacting to Your Spotify Wrappeds
+              </a>
+            </p>
+            <p class="video-author">
+              fantano
+            </p>
+            <p class="video-stats">
+              761K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            40:21
+          </div>
+          <a href="https://www.youtube.com/watch?v=xONPffnTQtU">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-9.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              <a href="https://www.youtube.com/watch?v=xONPffnTQtU" class="video-link">
+                Death Grips - The Powers That B REACTION/REVIEW
+              </a>
+            </p>
+            <p class="video-author">
+              Smags
+            </p>
+            <p class="video-stats">
+              14K views &#183; 7 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
